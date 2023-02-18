@@ -15,9 +15,9 @@ The core areas of functionality are also broken out into modules:
 
 * [geometry](geometry.py) provides utility methods to work with spatial geometry
 * [map_projection](map_projection.py) projects between different map coordinate systems
-* [nav_graph](navgraph.py) converts spatial data into a graph representation for navigation and generate routes
+* [nav_graph](navgraph.py) converts spatial data into a graph representation for navigation and generates routes
 * [navigation](navigation.py) process routes to generate turn-by-turn directions
-* [renderer](renderer.py) renders spatial data and path geometries
+* [renderer](renderer.py) renders/visualises spatial data and path geometries
 * [shape_helper](shape_helper.py) provides utility methods to help work with shapeRecords from shapefiles
 
 These modules are used by:
